@@ -1,0 +1,9 @@
+{% set user = salt['pillar.get']('ssh:user') -%}
+{% if user == 'root' %}
+{% set home = '/root' -%}
+{% else %}
+{% set home = '/home/'+user -%}
+{% endif %}
+{% set hosts = salt['pillar.get']('ssh:ssh_hosts') -%}
+{% set config_ssh = salt['pillar.get']('ssh:config_ssh') -%}
+{% set passwd = salt['pillar.get']('ssh:passwd') -%}
