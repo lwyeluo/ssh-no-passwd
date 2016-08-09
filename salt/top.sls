@@ -1,3 +1,3 @@
 base:
   '*':
-    - ssh_no_passwd
+    - ssh_conf

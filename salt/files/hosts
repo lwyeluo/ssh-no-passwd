@@ -13,13 +13,13 @@
 192.168.11.102	node2
 192.168.11.103	node3
 192.168.11.104	node4
-10.0.0.21	pca-oat
-10.0.0.28	host
-10.0.0.30	server
-10.0.0.31	node1
-10.0.0.32	node2
-10.0.0.33	node3
-10.0.0.34	node4
+#10.0.0.21	pca-oat
+#10.0.0.30	server
+#10.0.0.28	host
+#10.0.0.31	node1
+#10.0.0.32	node2
+#10.0.0.33	node3
+#10.0.0.34	node4
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
